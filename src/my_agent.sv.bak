@@ -1,0 +1,49 @@
+`ifndef MY_AGENT
+`define MY_AGENT
+
+`include "uvm_macros.svh"
+`include "my_transaction.sv"
+`include "my_monitor.sv"
+`include "my_driver.sv"
+
+`include "my_i_monitor.sv"
+`include "my_o_monitor.sv"
+import uvm_pkg::*;
+
+class my_agent extends uvm_agent;
+	`uvm_component_utils(my_agent)
+	my_driver driver;
+	my_monitor monitor;
+	uvm_sequencer#(my_transaction) sequencer;
+
+	//---------------
+	my_i_monitor monitor_i;
+	my_o_monitor monitor_o;
+
+	function new(string name="",uvm_component parent);
+		super.new(name,parent);
+		`uvm_info("my_agent","the my_agent new is called!",UVM_LOW)
+	endfunction
+
+	function void build_phase(uvm_phase phase);
+		super.build_phase(phase);
+		driver = my_driver::type_id::create("driver", this);
+  		monitor = my_monitor::type_id::create("monitor", this);
+  		sequencer = uvm_sequencer#(my_transaction)::type_id::create("sequencer", this);
+
+		monitor_i = my_i_monitor::type_id::create("monitor_i", this);
+		monitor_o = my_o_monitor::type_id::create("monitor_o", this);
+		`uvm_info("my_agent","the my_agent build_phase is called!",UVM_LOW)
+	endfunction
+
+	function void connect_phase(uvm_phase phase);
+  		driver.seq_item_port.connect(sequencer.seq_item_export);
+		`uvm_info("my_agent","the my_agent connect_phase is called!",UVM_LOW)
+	endfunction
+
+	task run_phase(uvm_phase phase);
+		`uvm_info("my_agent","the my_agent run_phase is called!",UVM_LOW)
+	endtask
+endclass
+
+`endif

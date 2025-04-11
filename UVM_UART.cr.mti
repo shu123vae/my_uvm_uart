@@ -1,0 +1,129 @@
+C:/Users/ChuangWang/Desktop/UVM_UART/src/my_top.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/src/my_top.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Note: (vlog-2286) C:/Users/ChuangWang/Desktop/UVM_UART/src/my_top.sv(3): Using implicit +incdir+F:/InstallationDir/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package my_top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Compiling interface rtl_if
+-- Compiling module Uart
+-- Compiling module my_top
+
+Top level modules:
+	my_top
+
+} {} {}} C:/Users/ChuangWang/Desktop/UVM_UART/src/my_scoreboard.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/src/my_scoreboard.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Note: (vlog-2286) C:/Users/ChuangWang/Desktop/UVM_UART/src/my_scoreboard.sv(4): Using implicit +incdir+F:/InstallationDir/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/ChuangWang/Desktop/UVM_UART/src/my_transaction.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/src/my_transaction.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Note: (vlog-2286) C:/Users/ChuangWang/Desktop/UVM_UART/src/my_transaction.sv(6): Using implicit +incdir+F:/InstallationDir/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/ChuangWang/Desktop/UVM_UART/test/hello.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/test/hello.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Note: (vlog-2286) C:/Users/ChuangWang/Desktop/UVM_UART/test/hello.sv(2): Using implicit +incdir+F:/InstallationDir/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/ChuangWang/Desktop/UVM_UART/src/my_test.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/src/my_test.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Note: (vlog-2286) C:/Users/ChuangWang/Desktop/UVM_UART/src/my_test.sv(5): Using implicit +incdir+F:/InstallationDir/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package my_test_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Compiling interface rtl_if
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/ChuangWang/Desktop/UVM_UART/dut/Uart.v {1 {vlog -work work -vopt -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/dut/Uart.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module Uart
+
+Top level modules:
+	Uart
+
+} {} {}} C:/Users/ChuangWang/Desktop/UVM_UART/src/my_model.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/src/my_model.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Note: (vlog-2286) C:/Users/ChuangWang/Desktop/UVM_UART/src/my_model.sv(9): Using implicit +incdir+F:/InstallationDir/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/ChuangWang/Desktop/UVM_UART/test/test.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/test/test.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Note: (vlog-2286) C:/Users/ChuangWang/Desktop/UVM_UART/test/test.sv(1): Using implicit +incdir+F:/InstallationDir/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package test_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} C:/Users/ChuangWang/Desktop/UVM_UART/src/rtl_if.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/src/rtl_if.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling interface rtl_if
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/ChuangWang/Desktop/UVM_UART/src/my_driver.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/src/my_driver.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Note: (vlog-2286) C:/Users/ChuangWang/Desktop/UVM_UART/src/my_driver.sv(6): Using implicit +incdir+F:/InstallationDir/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package my_driver_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Compiling interface rtl_if
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/ChuangWang/Desktop/UVM_UART/tb/tb_uart.v {1 {vlog -work work -vopt -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/tb/tb_uart.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_Uart
+
+Top level modules:
+	tb_Uart
+
+} {} {}} C:/Users/ChuangWang/Desktop/UVM_UART/src/my_agent.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/src/my_agent.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Note: (vlog-2286) C:/Users/ChuangWang/Desktop/UVM_UART/src/my_agent.sv(4): Using implicit +incdir+F:/InstallationDir/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package my_agent_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Compiling interface rtl_if
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/ChuangWang/Desktop/UVM_UART/src/my_monitor.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/src/my_monitor.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Note: (vlog-2286) C:/Users/ChuangWang/Desktop/UVM_UART/src/my_monitor.sv(4): Using implicit +incdir+F:/InstallationDir/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package my_monitor_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Compiling interface rtl_if
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/ChuangWang/Desktop/UVM_UART/src/my_sequence.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/src/my_sequence.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Note: (vlog-2286) C:/Users/ChuangWang/Desktop/UVM_UART/src/my_sequence.sv(4): Using implicit +incdir+F:/InstallationDir/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/ChuangWang/Desktop/UVM_UART/src/my_env.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ChuangWang/Desktop/UVM_UART/src/my_env.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Note: (vlog-2286) C:/Users/ChuangWang/Desktop/UVM_UART/src/my_env.sv(4): Using implicit +incdir+F:/InstallationDir/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package my_env_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Compiling interface rtl_if
+
+Top level modules:
+	--none--
+
+} {} {}}
